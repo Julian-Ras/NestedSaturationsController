@@ -1,3 +1,8 @@
+% This script is based on the article
+% Nested saturation with guaranteed real poles
+% https://ieeexplore.ieee.org/document/1239062
+
+
 %% System Ax + Bu
 A     = [0 1 0 0; 0 0 1 0; 0 0 0 1; 0 0 0 0];
 B     = [0; 0; 0; 9.8]; 
