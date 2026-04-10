@@ -71,13 +71,13 @@ ylabel({'Control input'}, 'interpreter', 'latex', 'fontsize', 14)
 
 
 %% Auxiliar function --- Sat(.) ---
-function res = sat(valor,limite)
-    if valor > limite
-        res = limite;
-    elseif valor < -limite
-        res = -limite;
+function res = sat(value,limit)
+    if value > limit
+        res = limit;
+    elseif value < -limit
+        res = -limit;
     else
-        res = valor;
+        res = value;
     end
 end
 
